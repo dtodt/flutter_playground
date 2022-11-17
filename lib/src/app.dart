@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_playground/src/challenges/c1_expense_page.dart';
+import 'package:flutter_playground/src/excercises/animations/e2_implicit_expansion_tile.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -10,7 +10,7 @@ class App extends StatelessWidget {
       title: 'Flutter Playground',
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.dark,
-      home: C1ExpensePage(),
+      home: E2ImplicitExpansionTile(),
     );
   }
 }
